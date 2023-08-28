@@ -1,0 +1,10 @@
+.container{
+    background: orange;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.blackC{
+    color: white;
+    text-decoration: line-through;
+}
