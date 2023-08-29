@@ -24,12 +24,7 @@ ul li{
     color: white;
     font-weight: 600;
 }
-.name{
-    font-size: 10px;
-    letter-spacing: none;
-    background: none;
-    color: black;
-}
+
 h1{
     color: white;
     background: linear-gradient(to bottom left, #a8c0ff, #3f2b96);
@@ -52,4 +47,10 @@ input:focus{
     outline: none;
     color: blue;
     font-weight: 500;
+}
+.name{
+    font-size: 10px;
+    letter-spacing: none;
+    background: none;
+    color: black;
 }
