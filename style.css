@@ -1,10 +1,47 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 .container{
-    background: orange;
-    margin: 0 auto;
+    background: linear-gradient(to bottom left, #a8c0ff, #3f2b96);
+    margin: 100px auto;
     width: 300px;
+    box-shadow: 9px 6px 23px 0px rgba(134,108,108,0.67);
 }
 
 .blackC{
-    color: white;
+    color: rgb(35, 43, 54);
     text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+ul li{
+    margin: 0 -50px;
+    padding: 8px 10px;
+    color: white;
+    font-weight: 600;
+}
+h1{
+    color: white;
+    background: linear-gradient(to bottom left, #a8c0ff, #3f2b96);
+    margin: 0 -15px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    margin: 0 -15px;
+    width: 300px;
+    padding: 8px 10px;
+    border: none;
+}
+input:focus{
+    outline: none;
+    color: blue;
+    font-weight: 500;
 }
