@@ -16,7 +16,7 @@ body{
 ul{
     list-style: none;
     margin: 0;
-    cursor: pointer;
+    cursor: cell;
 }
 ul li{
     margin: 0 -50px;
@@ -57,4 +57,7 @@ input:focus{
 h2{
     font-size: 20px;
     margin: 10px 10px;
+}
+span{
+    cursor: pointer;
 }
